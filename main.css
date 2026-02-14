@@ -1,0 +1,70 @@
+html,
+body {
+    margin: 0;
+    font-family: "Emilys Candy", sans-serif;
+    background-color: #f3c0cb;
+}
+
+/* container */
+.container {
+    display: flex;
+
+    align-items: center;
+    background-color: #df9fac;
+    border-radius: 30px;
+
+    width: 800px;
+    padding: 90px;
+    margin: 100px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#kitty-cat-image {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+/* form layout */
+.form-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 🌸 PASSWORD LABEL ("password please") */
+label {
+    font-size: 30px;
+    /* change size here */
+    color: #b3596c;
+}
+
+/* 🌸 PASSWORD INPUT */
+input[type="password"] {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #b1868f;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: "Emilys Candy", sans-serif;
+}
+
+/* 🌸 PLACEHOLDER FONT */
+input::placeholder {
+    font-family: "Emilys Candy", sans-serif;
+    font-size: 18px;
+}
+
+/* 🌸 SUBMIT BUTTON FONT */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Emilys Candy", sans-serif;
+    color: white;
+    background-color: #da6c83;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

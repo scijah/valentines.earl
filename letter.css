@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Emilys Candy", sans-serif;
+    background-color: #f3c0cb;
+}
+
+/* Container for the letter */
+.letter-container {
+    display: flex;
+    flex-direction: column;      /* stack elements vertically */
+    align-items: center;         /* center horizontally */ 
+    width: 100%;                  /* wider container */
+    max-width: 900px;            /* limit on large screens */
+    min-height: 40vh;            /* tall enough to fit content */
+    margin: 20px auto;           /* center horizontally with top/bottom spacing */
+    padding: 40px;               /* inner spacing */
+    background-color: #df9fac;
+    border-radius: 40px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Letter heading */
+.letter-container h1 {
+    font-size: 2.5em;
+    color: #b3596c;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 10px;        /* closer to mail icon */
+}
+
+.letter-container p {
+    font-size: 1.2em;
+    color: #693641;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Mail image */
+#letter-image {
+    width: 180px;                /* slightly smaller to fit */
+    height: auto;
+    display: block;
+    margin: 10px auto 20px auto; /* closer to heading, space below */
+}
+
+/* Flowers image */
+#flowers-image {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 20px auto 0 auto;   /* centered, some space from letter content */
+}
